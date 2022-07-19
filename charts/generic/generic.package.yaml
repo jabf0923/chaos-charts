@@ -21,9 +21,6 @@ experiments:
   - name: disk-fill
     CSV: disk-fill.chartserviceversion.yaml
     desc: "disk-fill"
-  - name: disk-loss
-    CSV: disk-loss.chartserviceversion.yaml
-    desc: "disk-loss"
   - name: node-drain
     CSV: node-drain.chartserviceversion.yaml
     desc: "node-drain"
@@ -51,9 +48,6 @@ experiments:
   - name: pod-autoscaler
     CSV: pod-autoscaler.chartserviceversion.yaml
     desc: "pod-autoscaler"
-  - name: byoc-pod-delete
-    CSV: byoc-pod-delete.chartserviceversion.yaml
-    desc: "byoc-pod-delete"
   - name: node-io-stress
     CSV: node-io-stress.chartserviceversion.yaml
     desc: "node-io-stress"
@@ -75,3 +69,21 @@ experiments:
   - name: pod-memory-hog-exec
     CSV: pod-memory-hog-exec.chartserviceversion.yaml
     desc: "pod-memory-hog-exec"
+  - name: pod-network-partition
+    CSV: pod-network-partition.chartserviceversion.yaml
+    desc: "pod-network-partition"
+  - name: pod-http-latency
+    CSV: pod-http-latency.chartserviceversion.yaml
+    desc: "pod-http-latency"
+  - name: pod-http-status-code
+    CSV: pod-http-status-code.chartserviceversion.yaml
+    desc: "pod-http-status-code"
+  - name: pod-http-modify-header
+    CSV: pod-http-modify-header.chartserviceversion.yaml
+    desc: "pod-http-modify-header"
+  - name: pod-http-modify-body
+    CSV: pod-http-modify-body.chartserviceversion.yaml
+    desc: "pod-http-modify-body"
+  - name: pod-http-reset-peer
+    CSV: pod-http-reset-peer.chartserviceversion.yaml
+    desc: "pod-http-reset-peer"
